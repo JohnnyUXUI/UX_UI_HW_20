@@ -216,12 +216,12 @@ header button {
     text-align: center;
 }
 
-footer {
+.case-study-footer {
     color: #fff;
     background-color: #051923;
 }
 
-footer .container {
+.case-study-footer .footer-container {
     max-width: 1200px;
     margin: 0 auto;
     width: 100%;
@@ -230,7 +230,7 @@ footer .container {
     padding: 32px 24px;
 }
 
-footer p {
+.case-study-footer p {
     width: 50%;
     vertical-align: top;
     display: inline-block;
@@ -239,6 +239,7 @@ footer p {
     font-family: Lato;
     font-style: normal;
     font-weight: bold;
+    margin-bottom: 0;
     font-size: 14px;
     line-height: 17px;
     text-align: right;
@@ -247,14 +248,15 @@ footer p {
     color: #FFFFFF;
 }
 
-footer ul {
+.case-study-footer ul {
     width: 50%;
     margin-right: auto;
     float: left;
+    margin-bottom: 0;
     text-align: left;
 }
 
-footer ul li {
+.case-study-footer ul li {
     display: inline-block;
     font-style: normal;
     font-weight: bold;
@@ -266,12 +268,12 @@ footer ul li {
     margin-right: 7%;
 }
 
-footer ul li a {
+.case-study-footer ul li a {
     color: #FFFFFF;
     transition: 0.3s;
 }
 
-footer ul li a:hover {
+.case-study-footer ul li a:hover {
     color: #00A6FB;
 }
 
@@ -637,14 +639,14 @@ footer ul li a:hover {
         padding: 64px 24px;
     }
 
-    footer p {
+    .case-study-footer p {
         width: 100%;
         float: none;
         text-align: center;
         display: inline-block;
     }
     
-    footer ul {
+    .case-study-footer ul {
         width: 100%;
         margin: 0;
         float: none;
@@ -653,7 +655,7 @@ footer ul li a:hover {
         margin-bottom: 32px;
     }
 
-    footer ul li {
+    .case-study-footer ul li {
         display: inline-block;
         margin: 0 3%;
     }
@@ -710,17 +712,17 @@ footer ul li a:hover {
         width: 100%;
     }
 
-    footer p {
+    .case-study-footer p {
         width: 100%;
         display: block;
     }
     
-    footer ul {
+    .case-study-footer ul {
         display: block;
         margin-bottom: 32px;
     }
 
-    footer ul li {
+    .case-study-footer ul li {
         display: block;
         text-align: center;
         margin: 24px 0;

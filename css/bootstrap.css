@@ -155,8 +155,8 @@ nav ul li a:hover {
 header {
     color: #fff;
     background-color: #003554;
-    background: url('../images/header-bg.png')
-    no-repeat center center/cover;
+    background: url('../images/burlington-humane-hero.png')
+    no-repeat top center/cover;
 }
 
 header .container {
@@ -186,6 +186,11 @@ button:hover {
     color: #FFFFFF;
 }
 
+#heroTextH1 {
+    font-size: 60px;
+    text-align: center;
+    justify-content: center;
+}
 
 .hero-text button {
     background: #003554;
@@ -205,10 +210,10 @@ header button {
     margin: 128px 0;
 }
 
-.hero-text p {   
-    max-width: 900px;
-    margin-top: 16px;
-    margin-bottom: 32px;
+#heroParagraph {
+    max-width: 100%;
+    justify-content: center;
+    text-align: center;
 }
 
 footer {
@@ -720,4 +725,25 @@ footer ul li a:hover {
         text-align: center;
         margin: 24px 0;
     }
+}
+
+/* CSS for Burlington Case Study */
+#uxHypothesisBox {
+    background: #30AFE3;
+}
+
+#uxHypothesis {
+    text-justify: center;
+    margin-top: 1.5%;
+}
+
+
+
+/* Research CSS Section */
+#researchText {
+    margin-top: 1.5%;
+    margin-left: 17.5%;
+}
+#researchBody {
+    margin-left: 17.5;
 }

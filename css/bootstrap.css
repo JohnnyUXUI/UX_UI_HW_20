@@ -216,12 +216,12 @@ header button {
     text-align: center;
 }
 
-.case-study-footer {
+footer {
     color: #fff;
     background-color: #051923;
 }
 
-.case-study-footer .footer-container {
+footer .container {
     max-width: 1200px;
     margin: 0 auto;
     width: 100%;
@@ -230,7 +230,7 @@ header button {
     padding: 32px 24px;
 }
 
-.case-study-footer p {
+footer p {
     width: 50%;
     vertical-align: top;
     display: inline-block;
@@ -239,7 +239,6 @@ header button {
     font-family: Lato;
     font-style: normal;
     font-weight: bold;
-    margin-bottom: 0;
     font-size: 14px;
     line-height: 17px;
     text-align: right;
@@ -248,15 +247,14 @@ header button {
     color: #FFFFFF;
 }
 
-.case-study-footer ul {
+footer ul {
     width: 50%;
     margin-right: auto;
     float: left;
-    margin-bottom: 0;
     text-align: left;
 }
 
-.case-study-footer ul li {
+footer ul li {
     display: inline-block;
     font-style: normal;
     font-weight: bold;
@@ -268,12 +266,12 @@ header button {
     margin-right: 7%;
 }
 
-.case-study-footer ul li a {
+footer ul li a {
     color: #FFFFFF;
     transition: 0.3s;
 }
 
-.case-study-footer ul li a:hover {
+footer ul li a:hover {
     color: #00A6FB;
 }
 
@@ -639,14 +637,14 @@ header button {
         padding: 64px 24px;
     }
 
-    .case-study-footer p {
+    footer p {
         width: 100%;
         float: none;
         text-align: center;
         display: inline-block;
     }
     
-    .case-study-footer ul {
+    footer ul {
         width: 100%;
         margin: 0;
         float: none;
@@ -655,7 +653,7 @@ header button {
         margin-bottom: 32px;
     }
 
-    .case-study-footer ul li {
+    footer ul li {
         display: inline-block;
         margin: 0 3%;
     }
@@ -712,19 +710,40 @@ header button {
         width: 100%;
     }
 
-    .case-study-footer p {
+    footer p {
         width: 100%;
         display: block;
     }
     
-    .case-study-footer ul {
+    footer ul {
         display: block;
         margin-bottom: 32px;
     }
 
-    .case-study-footer ul li {
+    footer ul li {
         display: block;
         text-align: center;
         margin: 24px 0;
     }
+}
+
+/* CSS for Burlington Case Study */
+#uxHypothesisBox {
+    background: #30AFE3;
+}
+
+#uxHypothesis {
+    text-justify: center;
+    margin-top: 1.5%;
+}
+
+
+
+/* Research CSS Section */
+#researchText {
+    margin-top: 1.5%;
+    margin-left: 17.5%;
+}
+#researchBody {
+    margin-left: 17.5;
 }

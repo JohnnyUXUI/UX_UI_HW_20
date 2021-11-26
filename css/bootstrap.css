@@ -795,6 +795,7 @@ height: auto;
   
   .sketch6 { grid-area: sketch6;
     padding:16px; }
+
 .sketchBoxes img {
     width: 100%;
     height: auto;
@@ -838,4 +839,19 @@ height: auto;
 
 #prototypeContainer h2 {
     color: #FFF;
+}
+
+ul {
+    font-size: 18px;
+}
+
+#learningsBox {
+    padding: 30px 0;
+    background: #30AFE3;
+}
+
+#learningsBox img {
+    width: 100%;
+    height: auto;
+    padding: 16px;
 }

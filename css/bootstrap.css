@@ -803,8 +803,8 @@ height: auto;
 /*Prototype CSS Start */
 .prototypeBox {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.8fr 1fr 1.2fr;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: 0.58fr 0.58fr 1.3fr;
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
@@ -823,3 +823,19 @@ height: auto;
   
   .finalPrototypeImage { grid-area: finalPrototypeImage; }
   
+
+  .prototypeBox img {
+    width: 100%;
+    height: auto;
+    padding: 16px;
+}
+
+#prototypeContainer {
+    padding: 30px 0;
+    color: #FFF;
+    background-color: #000000;
+}
+
+#prototypeContainer h2 {
+    color: #FFF;
+}

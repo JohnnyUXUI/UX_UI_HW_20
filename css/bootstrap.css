@@ -728,6 +728,9 @@ footer ul li a:hover {
 }
 
 /* CSS for Burlington Case Study */
+#designProcess {
+    padding: 1.5%;
+}
 #uxHypothesisBox {
     background: #30AFE3;
 }
@@ -736,18 +739,87 @@ footer ul li a:hover {
     text-justify: center;
     margin-top: 1.5%;
 }
+.img-define {
+    width: 100%;
+    height: auto;
+}
 
-
+.img-fluid {
+background-image: url('https://images.pexels.com/photos/1440403/pexels-photo-1440403.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+width: 100%;
+height: auto;
+}
+.img-sketch {
+    background-image: url('../images/sketches.png');
+    background-size: cover;
+}
 
 /* Research CSS Section */
 #researchText {
     margin-top: 1.5%;
-    margin-left: 17.5%;
+    padding-left: 30px;
+    border: 16px;
 }
-#researchBody {
-    margin-left: 17.5;
+.statsTop {
+    margin-top: 1.5%;
+    margin-bottom: 1.5%
+}
+.sketchBoxes {
+    display: grid;
+    background-color: #30AFE3;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.8fr 1fr 1.2fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "sketch1 sketch2 ."
+      "sketch3 sketch4 ."
+      "sketch5 sketch6 .";
+  }
+  
+  .sketch1 { grid-area: sketch1;
+    padding:16px; }
+  
+  .sketch2 { grid-area: sketch2;
+    padding:16px; }
+  
+  .sketch3 { grid-area: sketch3;
+    padding:16px; }
+  
+  .sketch4 { grid-area: sketch4;
+    padding:16px; }
+  
+  .sketch5 { grid-area: sketch5;
+    padding:16px; }
+  
+  .sketch6 { grid-area: sketch6;
+    padding:16px; }
+.sketchBoxes img {
+    width: 100%;
+    height: auto;
 }
 
-#researchText .col-sm-4 {
-    padding-left: 0;
-}
+/*Prototype CSS Start */
+.prototypeBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.8fr 1fr 1.2fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "prototypeBody prototypeBody prototypeImage3"
+      "prototypeImage1 prototypeImage2 prototypeImage3"
+      "finalPrototypeImage finalPrototypeImage finalPrototypeImage";
+  }
+  
+  .prototypeBody { grid-area: prototypeBody; }
+  
+  .prototypeImage3 { grid-area: prototypeImage3; }
+  
+  .prototypeImage2 { grid-area: prototypeImage2; }
+  
+  .prototypeImage1 { grid-area: prototypeImage1; }
+  
+  .finalPrototypeImage { grid-area: finalPrototypeImage; }
+  

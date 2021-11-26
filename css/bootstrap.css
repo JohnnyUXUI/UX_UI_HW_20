@@ -747,3 +747,7 @@ footer ul li a:hover {
 #researchBody {
     margin-left: 17.5;
 }
+
+#researchText .col-sm-4 {
+    padding-left: 0;
+}

@@ -34,6 +34,15 @@
             </div>
             <div class="clear-fix"></div>
         </header>
+        <div id="navbar" class="d-flex justify-content-center">
+          <a href="#designProcess">Design Process</a>
+          <a href="#uxHypothesis">UX Hypothesis</a>
+          <a href="#researchText">Research</a>
+          <a href="#defineBox">Define</a>
+          <a href="#prototypeContainer">Prototyping</a>
+          <a href="#learningsBox">Key Learning</a>
+        </div>
+        <div class="content">
 <!--Main Content Start-->
 <!--UX HYPOTHESIS SECTION-->
 <div class="d-flex justify-content-center"><h2 id="designProcess"><strong>DESIGN PROCESS</h2></strong></div>
@@ -67,7 +76,7 @@
 <div class="d-flex justify-content-left">
       <div class="col-sm-2"></div>
       <div class="row col-sm-5" id="researchText">
-        <h2 id="blackHeader">RESEARCH</h2>
+        <h2 id="blackHeader"><strong>RESEARCH</strong></h2>
       <p>We conducted 6 user interviews, and surveyed 67 respondents.
      From our research, these are the important points that our users wanted to see when they are looking to adopt.</p>
       </div>
@@ -90,9 +99,9 @@
 <!--Define Statement Start-->
 <div class="col-sm-2"></div>
 </div>
-<div class="d-flex justify-content-center" id="uxHypothesisBox">
+<div class="d-flex justify-content-center" id="defineBox">
   <div class="col-sm-2"></div>
-  <div class="col-sm-5" id="uxHypothesis">
+  <div class="col-sm-5" id="defineBox">
     <h2><strong>DEFINE</strong></h2>
     <br><h3>PROBLEM STATEMENT:</h3>
     <p>We have gathered that users have a challenging time navigating and finding the right pet which causes a low engagement rate for the adoption shelter. 
@@ -154,7 +163,7 @@
 <div class="d-flex justify-content-center" id="learningsBox">
   <div class="col-sm-2"></div>
   <div class="col-sm-5" id="uxHypothesis">
-    <h2><strong>KEY LEARNINGS & NEXT STEPS</strong></h2>
+    <h2><strong>KEY LEARNINGS</strong></h2>
   <ul>
     <li>•Limited with incorporating design solutions as our client wanted to stick to WordPress</li>
     <li>•Overwhelming amount of animals in shelters that need to be adopted, and by redesigning the website so that it’s user-friendly, it’ll give animals a better chance</li>
@@ -174,6 +183,7 @@
     </div>
   </div>
 </div>
+</div>
 <!--Key Learnings End-->
 <!--Footer start-->
         <footer>
@@ -192,32 +202,7 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-        <script>
-            $(document).ready(function(){
-              // Add smooth scrolling to all links
-              $("a").on('click', function(event) {
-            
-                // Make sure this.hash has a value before overriding default behavior
-                if (this.hash !== "") {
-                  // Prevent default anchor click behavior
-                  event.preventDefault();
-            
-                  // Store hash
-                  var hash = this.hash;
-            
-                  // Using jQuery's animate() method to add smooth page scroll
-                  // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-                  $('html, body').animate({
-                    scrollTop: $(hash).offset().top
-                  }, 400, function(){
-            
-                    // Add hash (#) to URL when done scrolling (default click behavior)
-                    window.location.hash = hash;
-                  });
-                } // End if
-              });
-            });
-            </script>
+
             <script>
                 $(document).ready(function () {
                     // Hides background overlay

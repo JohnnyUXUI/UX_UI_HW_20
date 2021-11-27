@@ -739,6 +739,14 @@ footer ul li a:hover {
     text-justify: center;
     margin-top: 1.5%;
 }
+#defineBox {
+    background: #30AFE3;
+}
+
+#defineBox {
+    text-justify: center;
+    margin-top: 1.5%;
+}
 .img-define {
     width: 100%;
     height: auto;
@@ -852,7 +860,7 @@ ul {
 }
 
 #learningsBox img {
-    width: 60%;
+    width: 40%;
     height: auto;
     padding: 16px;
 }

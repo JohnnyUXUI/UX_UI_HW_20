@@ -852,7 +852,11 @@ ul {
 }
 
 #learningsBox img {
-    width: 100%;
+    width: 60%;
     height: auto;
     padding: 16px;
+}
+
+.finalPrototypeImage a:hover {
+    opacity: 60%;
 }

@@ -148,8 +148,20 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #00A6FB;
+    color: #003554 !important;
     transition: 0.3s;
+    text-decoration: none;
+}
+
+.logo a {
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+
+.logo a:hover {
+    color: #003554;
+    transition: 0.3s;
+    text-decoration: none;
 }
 
 header {
@@ -745,7 +757,7 @@ footer ul li a:hover {
   
   /* Page content */
   .content {
-    padding: 16px;
+    padding: 0px;
   }
   
   /* The sticky class is added to the navbar with JS when it reaches its scroll position */
